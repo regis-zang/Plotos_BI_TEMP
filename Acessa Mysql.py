@@ -13,7 +13,7 @@ import mysql.connector
 host = "108.167.188.170"
 database = "mectsu42_abacus"
 user = "mectsu42_abadm"
-password = "banco@2075"
+password = "banco-2075"
 
 # Conectar ao banco de dados
 try:
