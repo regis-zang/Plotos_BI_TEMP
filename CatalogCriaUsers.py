@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Script: temp.py
-Descrição: Este script faz XYZ.
+Script: Catalogo para criação de novos usuarios para o sistewma de atividades
+Descrição: Este código serve para criação dos usuarios que teram atividades no processo
 Autor: Regis Zang
-Data: DD/MM/AAAA
+Data: 20/05/2024
 Versão: 1.0
 Licença: MIT
 Requisitos: biblioteca_x, biblioteca_y
