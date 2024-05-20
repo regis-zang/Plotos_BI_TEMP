@@ -14,10 +14,10 @@ from datetime import date, datetime
 
 # Conectar ao banco de dados
 conn = mysql.connector.connect(
-    host='seu_host',
-    database='seu_banco',
-    user='seu_usuario',
-    password='sua_senha'
+    host='mectsuru.com',
+    database='mectsu42_db_catalogo',
+    user='mectsu42_dadm',
+    password='S3gur@2022'
 )
 
 # Inserir um novo usuário
@@ -26,8 +26,8 @@ insert_query = '''
     INSERT INTO usuarios (usuario, senha, status, ultima_execucao, ultimo_acesso)
     VALUES (%s, %s, %s, %s, %s)
 '''
-usuario = 'usuario_exemplo'
-senha = 'senha_exemplo'
+usuario = 'usrJc'
+senha = 'P@ssw0rd!'
 status = 'ativo'
 ultima_execucao = date.today()
 ultimo_acesso = datetime.now()
